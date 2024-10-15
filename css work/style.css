@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+}
+.container{
+    background-color: aquamarine;
+    height: 300px;
+    border: 2px solid red;
+    width: 800px;
+    margin: 40px 20px;
+    display: grid;
+    grid-template-columns:(12,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+ .child1{
+    background-color: brown;
+    grid-row-start:1;
+    grid-row-end:3;
+    grid-column-end:10;
+    color:white;
+   
+}
+/* .child1,.child2,.child3{
+    height: 200px;
+    width:200px;
+    border: 1px solid green;
+    display: inline-block;
+}
+.child2{
+    background-color:yellow;
+}
+.child3{
+    background-color: blueviolet;
+} */ 
